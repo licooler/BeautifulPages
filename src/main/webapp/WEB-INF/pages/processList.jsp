@@ -1,21 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<%@ include file="/WEB-INF/base/global.jsp"%>
-	<%@ include file="/WEB-INF/base/include-css.jsp" %>
-<title>标题title</title>
+	<%@ include file="/WEB-INF/base/include-css.jsp"%>
+	<%@ include file="/WEB-INF/base/include-js.jsp"%>
+<title>流程部署列表</title>
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="span12">
-				<h2>
-					<em>流程部署列表</em>
-				</h2>
-				<span class="badge badge-info">1</span>
+				<span class="badge badge-info">流程部署列表</span>
 			</div>
 		</div>
 		<div class="row-fluid">
