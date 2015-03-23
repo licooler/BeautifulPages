@@ -5,6 +5,19 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     	 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
 	<display-name>BeautifulPages</display-name>
+	
+	<!-- 
+	<listenner>
+		<listener-class>listenner的实现类</listenner-class>
+	</listenner>
+	<filter>
+	<filter-name></filter-name>
+	<filter-class></filter-class>
+	</filter>
+	<filter-mapping>
+	</filter-mapping>
+	 -->
+	 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>

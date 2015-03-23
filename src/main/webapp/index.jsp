@@ -7,6 +7,6 @@
 </head>
 <body>
 	test index!!!!!!!!!!!!!!<br>
-	<a href="processList.jsp">processList</a>
+	<a href="/WEB-INF/pages/test.jsp">processList</a>
 </body>
 </html>
