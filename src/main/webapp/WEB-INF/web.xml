@@ -6,17 +6,23 @@
     	 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
 	<display-name>BeautifulPages</display-name>
 	
-	<!-- 
-	<listenner>
-		<listener-class>listenner的实现类</listenner-class>
-	</listenner>
-	<filter>
-	<filter-name></filter-name>
-	<filter-class></filter-class>
-	</filter>
-	<filter-mapping>
-	</filter-mapping>
-	 -->
+	<servlet>
+		<servlet-name>processList</servlet-name>
+		<jsp-file>/WEB-INF/pages/processList.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>processList</servlet-name>
+		<url-pattern>/processList</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>test</servlet-name>
+		<jsp-file>/WEB-INF/pages/test.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
 	 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
