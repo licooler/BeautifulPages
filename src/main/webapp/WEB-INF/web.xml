@@ -6,7 +6,7 @@
 	
 	<servlet>
 		<servlet-name>processList</servlet-name>
-		<jsp-file>/WEB-INF/pages/processList.jsp</jsp-file>
+		<jsp-file>/pages/process/processList.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>processList</servlet-name>
@@ -15,7 +15,7 @@
 
 	<servlet>
 		<servlet-name>test</servlet-name>
-		<jsp-file>/WEB-INF/pages/test.jsp</jsp-file>
+		<jsp-file>/pages/test.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>test</servlet-name>
@@ -23,9 +23,9 @@
 	</servlet-mapping>
 	 
 	<welcome-file-list>
-		<welcome-file>/WEB-INF/index.html</welcome-file>
-		<welcome-file>/WEB-INF/index.htm</welcome-file>
-		<welcome-file>/WEB-INF/index.jsp</welcome-file>
+		<welcome-file>/pages/index.html</welcome-file>
+		<welcome-file>/pages/index.htm</welcome-file>
+		<welcome-file>/pages/index.jsp</welcome-file>
 	</welcome-file-list>
 
 </web-app>
