@@ -2,6 +2,7 @@ package com.wxl.pageStu.web.action;
 
 import com.opensymphony.xwork2.Action;
 
+
 public class testAction implements Action{
 
 	@Override
