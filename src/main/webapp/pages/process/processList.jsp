@@ -7,6 +7,12 @@
 <html>
 <head>
 <title>流程部署列表</title>
+<script type="text/javascript">
+function subSMSConext(){
+	 var smsSelectTypeValue = $("#smsSelectType").val();
+	 alert(smsSelectTypeValue);
+}
+</script>
 </head>
 <script type="text/javascript" src="${ctx }/js/js0323/process.js"></script>
 <body>
@@ -15,6 +21,21 @@
 			<div class="span12">
 				<span class="badge badge-info">流程部署列表</span>
 			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">原因:</label>
+			<div class="controls">
+				<select class="input-medium" id="smsSelectType" >
+					<option selected='selected' value="1">待处理</option>
+					<option value="2">停机</option>
+					<option value="3">空号</option>
+					<option value="4">更换支付宝</option>
+				</select>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button id="subSMSButton" type="button" onClick="subSMSConext(this);"
+				class="btn btn-primary">确 认</button>
 		</div>
 		<div class="row-fluid">
 			<div class="span12">

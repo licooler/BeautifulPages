@@ -64,7 +64,7 @@ body {
 	 
 	<div class="row" style="margin-top: 160px;">
 		<div class="col-xs-4 col-xs-offset-4">
-			<form class="form-horizontal" action="${ctx }/processList">
+			<form class="form-horizontal" action="${ctx }/login">
 				<!-- 增加required属性表示必须有值输入
 				<input type="text" id="username" name="username" class="form-control" placeholder="用户名" required autofocus>
 				<input type="password" id="password" name="password" class="form-control" placeholder="密码" required>

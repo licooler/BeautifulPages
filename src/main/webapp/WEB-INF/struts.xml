@@ -5,7 +5,7 @@
 <struts>  
     <package namespace="/" name="struts2" extends="struts-default">  
         <action name="login" method="execute" class="loginAction">  
-            <result name="success">/pages/index.jsp</result>
+            <result name="success">/pages/process/processList.jsp</result>
         </action>  
         <action name="processList" method="execute">
         	<result>/pages/process/processList.jsp</result>
