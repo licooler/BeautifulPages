@@ -4,10 +4,10 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">    
 <struts>  
     <package namespace="/" name="struts2" extends="struts-default">  
-        <action name="login" method="execute" class="loginAction">  
-            <result name="success">/pages/process/processList.jsp</result>
+        <action name="login" method="execute" >  
+            <result name="success">processList</result>
         </action>  
-        <action name="processList" method="execute">
+        <action name="processList" method="execute" class="processListAction">
         	<result>/pages/process/processList.jsp</result>
         </action>
     </package>

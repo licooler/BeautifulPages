@@ -12,5 +12,14 @@
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 	
-	<bean id="loginAction" class="com.wxl.pageStu.web.action.testAction"></bean>
+	<bean id="processListAction" class="com.wxl.pageStu.web.action.process.ProcessListAction">
+		<property name="processExhibitionService" ref="processExhibitionService"></property>
+	</bean>
+	
+	<bean id="processExhibitionService" class="com.wxl.pageStu.service.process.impl.ProcessExhibitionServiceImpl">
+		<property name="processExhibitionManager" ref="processExhibitionManager"></property>
+	</bean> 
+	
+	<bean id="processExhibitionManager" class="com.wxl.pageStu.manager.process.impl.ProcessExhibitionManagerImpl">
+	</bean>
 </beans>
